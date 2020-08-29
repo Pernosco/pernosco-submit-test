@@ -1,2 +1,3 @@
 # pernosco-submit-test
-Test application
+
+Repository used to test [pernosco-submit](https://github.com/Pernosco/pernosco-submit).
