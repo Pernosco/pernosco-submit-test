@@ -12,3 +12,6 @@ EOF
 cc -gsplit-dwarf -g -c -o out/file.o out/file.c
 cc -gsplit-dwarf -g -c -o out/main.o main.c
 cc -gsplit-dwarf -g -o out/main out/file.o out/main.o
+
+objcopy --only-keep-debug out/main out/main.debug
+objcopy --strip-all --add-gnu-debuglink=out/main.debug out/main out/main
