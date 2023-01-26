@@ -1,3 +1,6 @@
 [submodule "submodule"]
 	path = submodule
 	url = https://github.com/Pernosco/pernosco-submit-test-submodule
+[submodule "submodule-private"]
+	path = submodule-private
+	url = git@github.com:Pernosco/pernosco-submit-test-private-submodule.git
